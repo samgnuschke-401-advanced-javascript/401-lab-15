@@ -1,0 +1,39 @@
+{
+  "name": "401-lab-15",
+  "version": "1.0.0",
+  "description": "## Before you begin Refer to *Getting Started*  in the [lab submission instructions](../../../reference/submission-instructions/labs/README.md) for complete setup, configuration, deployment, and submission instructions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgnuschke-401-advanced-javascript/401-lab-15.git"
+  },
+  "keywords": [],
+  "author": "Sam Gnuschke",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "cors": "^2.8.4",
+    "debug": "^4.1.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "jest": "^24.8.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb-memory-server": "^5.1.4",
+    "mongoose": "^5.3.13",
+    "mongoose-schema-jsonschema": "^1.1.15",
+    "morgan": "^1.9.0",
+    "require-directory": "^2.1.1",
+    "supertest": "^3.3.0",
+    "swagger-ui-express": "^4.0.2"
+  }
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samgnuschke-401-advanced-javascript/401-lab-15/issues"
+  },
+  "homepage": "https://github.com/samgnuschke-401-advanced-javascript/401-lab-15#readme"
+}
